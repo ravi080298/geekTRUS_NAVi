@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LKModal from "./Modal";
+import LKModal from "./components/organism/Modal";
 
 const Table = (props) => {
   const { data, list, setList } = props;
@@ -34,7 +34,7 @@ const Table = (props) => {
     });
     setList(array);
     selectedItem.splice(0, selectedItem.length);
-    setAllChecked(!allChecked);
+    setAllChecked(false);
     deSelectAll();
   };
 
