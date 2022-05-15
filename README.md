@@ -1,2 +1,2 @@
-# geekTRUS_NAVi
+# GeekTrust
 Created with CodeSandbox
